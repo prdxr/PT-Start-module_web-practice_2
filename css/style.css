@@ -1,0 +1,90 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: grey;
+}
+
+#sidebar-pfp {
+    border-radius: 10%;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar {
+    width: 25%;
+    align-content: center;
+    float: left;
+    background-color: dimgray;
+    color: whitesmoke;
+    border-radius: 5%;
+}
+
+.sidebar-info {
+    align-content: left;
+    padding: 5%;
+}
+
+.main-content {
+    display: inline-block;
+}
+
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar-item {
+    /* display: inline; */
+    float: left;
+}
+  
+.navbar-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar-link:hover {
+    background-color: limegreen;
+}
+.active {
+    background-color: darkgrey;
+}
+
+.navbar {
+    height: 10%;
+    align-content: left;
+    background-color: dimgray;
+    color: whitesmoke;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+article {
+    width: 90%;
+    align-content: left;
+    background-color: dimgray;
+    color: whitesmoke;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+.github-button {
+    display: block;
+    width: 50%;
+    color: white;
+    background-color: #333333;
+    text-align: center;
+    margin: 0 25%;
+    padding: 14px 10%;
+    text-decoration: none;
+    border-radius: 10px;
+    border-color: black;
+}
+.github-button:hover {
+    background-color: limegreen;
+}
